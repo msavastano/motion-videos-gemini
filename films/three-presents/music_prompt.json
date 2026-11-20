@@ -1,0 +1,17 @@
+{
+  "model": "lyria-3-pro-preview",
+  "takes": [
+    {
+      "id": "take1",
+      "prompt": "Instrumental, no vocals, no percussion drums. Sparse, contemplative chamber ambient at 68 BPM in D minor. Soft felt piano with intimate close-mic room tone and gentle sustained cello harmonics. Minimal and spacious 0-35 seconds with solitary piano notes; warm resonant chordal bloom 35-65 seconds; delicate crystalline minimal pulse and soft high harmonics 65-100 seconds; quiet open fifth resolution fading gently 100-120 seconds. Very restrained dynamics to leave room for spoken narration."
+    },
+    {
+      "id": "take2",
+      "prompt": "Instrumental, no vocals. Contemplative modern classical minimalism at 72 BPM in A minor. Muted felt piano, soft bowed viola pedal tone, and subtle plucked acoustic harp harmonics marking clean quiet pulses. Intimate, philosophical, unhurried mood. Opens sparse and inquisitive, deepens warmly in the middle minute, shifts to cool transparent glass-like clarity in the final third, ending on a calm unresolved suspension. Sparse arrangement suitable under documentary voiceover."
+    },
+    {
+      "id": "take3",
+      "prompt": "Instrumental, no vocals. Minimalist ambient score at 66 BPM in C minor. Warm muted upright piano, gentle low analog sine warmth, and soft sustained string quartet harmonics. Deeply meditative and architectural, never dramatic or orchestral. Clean subtle pulse throughout, transitioning from warm organic resonance in the first half to crisp, delicate minimal clarity in the second half, dissolving into stillness at the end."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+*.blend1
+
+# Raw browser captures / temp artifacts
+films/*/assets/ui/
+films/*/assets/shots/
+films/*/prep/
+films/*/audio/*.wav
+films/*/audio/music/*.wav
+films/*/audio/vo_trim/
+films/*/blender/*.blend
+
+# Keep only final deliverables in out/
+films/*/out/*
+!films/*/out/final.mp4
+!films/*/out/contact.png
+!films/*/out/poster.png
+# THREE PRESENTS: regenerable renders, clip frames, decoded audio and the rebuilt .blend
+films/three-presents/prep/
+films/three-presents/audio/*.wav
+films/three-presents/blender/*.blend

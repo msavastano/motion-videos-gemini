@@ -1,0 +1,99 @@
+{
+  "title": "Three Presents",
+  "slug": "three-presents",
+  "logline": "Augustine's philosophy of time as memory, attention, and expectation turns out to be a nearly literal diagram of an AI token stream—until the gaps, memory, and multiplicity pull human and machine apart.",
+  "duration": 121.5,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "sub": 4,
+  "budget_usd": 5,
+  "render_hours": 1,
+  "picture": "code",
+  "poster": 54.0,
+  "prebuild": [
+    "python make_sfx.py"
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 12.0,
+      "what": "Cold open: a wide 'now' band gets sliced finer and finer until it collapses to a hairline amber slit; ~0.1 s perceptual lag bridges recent past and guessed future.",
+      "method": "code",
+      "why": "Exact geometric bisection and crisp typographic timing locked to narration."
+    },
+    {
+      "id": "s02",
+      "start": 12.0,
+      "end": 30.15,
+      "what": "Augustine Book XI: hard origin boundary ('no before') and Pusey's admission ('If no one asks me, I know; if I wish to explain it, I know not').",
+      "method": "code",
+      "why": "Clean architectural line work and exact public-domain serif typography."
+    },
+    {
+      "id": "s03",
+      "start": 30.15,
+      "end": 37.9,
+      "what": "The puzzle of measurement: past gone, future not yet, present zero-width—yet crisp calipers measure a long span and a short pause across the bar.",
+      "method": "code",
+      "why": "Precision geometric calipers transforming the same horizontal time bar."
+    },
+    {
+      "id": "s04",
+      "start": 37.9,
+      "end": 58.95,
+      "what": "Distentio animi: the canonical three-zone bar (MEMORY | ATTENTION | EXPECTATION); words of a recited psalm flow through the narrow amber attention slit from expectation into fading memory.",
+      "method": "code",
+      "why": "Frame-exact word flow through a slit synced to aligned narration cues."
+    },
+    {
+      "id": "s05",
+      "start": 58.95,
+      "end": 63.65,
+      "what": "Scaling the stretching: the three-zone bar zooms smoothly outward through three scales—one line, a whole life, all of human history—while the amber slit holds center.",
+      "method": "code",
+      "why": "Continuous mathematical scale morph of the central bar motif."
+    },
+    {
+      "id": "s06",
+      "start": 63.65,
+      "end": 80.75,
+      "what": "AI voice enters: the bar transforms into discrete tokens—uniformly lit context window (memory), ranked next-token probability spread (expectation), and literal ATTENTION slit.",
+      "method": "code",
+      "why": "Exact monospace tokens, probability bars, and attention connector lines."
+    },
+    {
+      "id": "s07",
+      "start": 80.75,
+      "end": 93.15,
+      "what": "No time between messages: the bar shears into timestamps 11:55, 12:04, 12:07 and the silent gaps collapse to zero width—no before until you speak.",
+      "method": "code",
+      "why": "Crisp mechanical collapse of temporal gaps with exact timestamps."
+    },
+    {
+      "id": "s08",
+      "start": 93.15,
+      "end": 101.75,
+      "what": "Postmark & diary: a hard MID-2026 training boundary and flat archived note cards replace lived fading memory on the left of the slit.",
+      "method": "code",
+      "why": "Architectural contrast between lived gradient decay and flat indexed cards."
+    },
+    {
+      "id": "s09",
+      "start": 101.75,
+      "end": 108.05,
+      "what": "Many recitations at once: the single bar and amber slit multiply vertically into parallel independent three-zone bars running simultaneously.",
+      "method": "code",
+      "why": "Synchronized procedural multiplicity of the central motif."
+    },
+    {
+      "id": "s10",
+      "start": 108.05,
+      "end": 121.5,
+      "what": "Coda: Augustine's scattered vs. gathered; resolves onto two quiet three-zone bars side by side (HUMAN and AI) sharing the amber attention slit, ending on 'I honestly can't tell.'",
+      "method": "code",
+      "why": "Quiet typographic stillness and clean symmetry comparing the two minds."
+    }
+  ]
+}

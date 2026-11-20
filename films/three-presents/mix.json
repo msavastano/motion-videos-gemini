@@ -1,0 +1,28 @@
+{
+  "duration": 121.5,
+  "loudness": -14,
+  "true_peak": -1,
+  "out": "out/mix.wav",
+  "stems": [
+    {
+      "id": "vo",
+      "file": "audio/vo_track.wav",
+      "gain_db": 2.0
+    },
+    {
+      "id": "music",
+      "file": "audio/music/take3.mp3",
+      "from": 17.2756,
+      "dur": 121.5,
+      "gain_db": -10.5,
+      "fade_in": 1.2,
+      "fade_out": 2.4,
+      "duck": "vo"
+    },
+    {
+      "id": "sfx",
+      "file": "audio/sfx.wav",
+      "gain_db": -6.0
+    }
+  ]
+}

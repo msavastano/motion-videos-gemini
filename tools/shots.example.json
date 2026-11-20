@@ -1,0 +1,20 @@
+{
+  "image_model": "gemini-nano-banana-2.1",
+  "video_model": "gemini-omni-1.1-flash",
+  "aspect_ratio": "16:9",
+  "image_size": "2K",
+  "video_resolution": "720p",
+  "clip_seconds": 8,
+  "style": "Flat vector illustration, warm paper texture, navy and amber palette, no text.",
+  "video_style": "Slow, steady camera movement. No text or captions on screen.",
+  "images": [
+    {"id": "title_bg", "prompt": "The Capitol dome at dawn, wide shot, calm sky with open space on the left for a title."},
+    {"id": "bill", "prompt": "A single sheet of paper with a large ribbon seal, centered on a plain desk, top-down."},
+    {"id": "end_card", "prompt": "The same Capitol dome at dusk, lights on, open space in the center for a closing line."}
+  ],
+  "clips": [
+    {"id": "c01", "prompt": "Slow push-in on the dome as the sky brightens.", "first_frame": "title_bg"},
+    {"id": "c02", "prompt": "The paper slides forward and the seal glints.", "first_frame": "bill", "seconds": 6},
+    {"id": "c03", "prompt": "Time-lapse from morning to evening over the dome.", "first_frame": "title_bg", "last_frame": "end_card"}
+  ]
+}
