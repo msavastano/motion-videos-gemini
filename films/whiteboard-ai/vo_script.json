@@ -1,0 +1,41 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Charon",
+  "style": "Warm, curious, clear educational narrator pacing with natural emphasis and unhurried clarity.",
+  "language": "en",
+  "lead_in": 0.6,
+  "gap": 0.65,
+  "tail": 2.0,
+  "segments": [
+    {
+      "id": "s01_neuron",
+      "text": "Every neural network begins with one [[inputs]] simple unit: an artificial neuron. It takes numbers in, multiplies each by a [[weights]] weight, adds them [[sum]] together, and passes the total through an [[activation]] activation curve—deciding how [[neuron_alive]] strongly to fire.",
+      "gap_after": 0.65
+    },
+    {
+      "id": "s02_network",
+      "text": "Wire thousands of these neurons into [[layers]] stacked layers, and a pattern emerges. Signals ripple [[forward]] forward from layer to layer. When the answer is wrong, an [[error]] error signal flows backward—and training gently [[training_alive]] nudges every weight until the network learns.",
+      "gap_after": 0.75
+    },
+    {
+      "id": "s03_tokens",
+      "text": "Now, how does a network read [[wipe_tokens]] language? First, it slices text into bite-sized pieces called [[tokens]] tokens. Each token maps to a [[vectors]] vector—a list of numbers placing that word in a [[vectors_alive]] map of meaning.",
+      "gap_after": 0.65
+    },
+    {
+      "id": "s04_llm",
+      "text": "A large language model reads your prompt and asks one question: [[llm_box]] what comes next? It scores every token in its [[probs]] vocabulary, picks a likely [[pick_mat]] winner, tacks it onto the end, and [[loop_alive]] repeats—one word at a time.",
+      "gap_after": 0.75
+    },
+    {
+      "id": "s05_attention",
+      "text": "What makes a transformer smart is [[wipe_attn]] self-attention. In 'The animal didn't cross the street because [[sentence]] it was too tired,' attention lets 'it' [[attn_arcs]] look across the sentence and lock onto [[attn_alive]] 'animal.' Stack dozens of these [[stack_layers]] layers, and deep context clicks.",
+      "gap_after": 0.75
+    },
+    {
+      "id": "s06_pipeline",
+      "text": "Put it all together on [[wipe_wrap]] one board: [[pipeline_draw]] words become tokens, tokens become vectors, attention weighs the context across stacked layers, and [[cap_on]] out comes the next [[pipeline_alive]] token—prediction by prediction.",
+      "gap_after": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1348 @@
+{
+ "version": 1,
+ "duration": 99.628,
+ "sample_rate": 24000,
+ "voice": "Charon",
+ "model": "gemini-3.8-flash-tts",
+ "segments": [
+  {
+   "id": "s01_neuron",
+   "text": "Every neural network begins with one [[inputs]] simple unit: an artificial neuron. It takes numbers in, multiplies each by a [[weights]] weight, adds them [[sum]] together, and passes the total through an [[activation]] activation curve\u2014deciding how [[neuron_alive]] strongly to fire.",
+   "spoken": "Every neural network begins with one simple unit: an artificial neuron. It takes numbers in, multiplies each by a weight, adds them together, and passes the total through an activation curve\u2014deciding how strongly to fire.",
+   "start": 0.6,
+   "end": 16.039,
+   "words": [
+    {
+     "w": "Every",
+     "start": 0.68,
+     "end": 0.92
+    },
+    {
+     "w": "neural",
+     "start": 1.0,
+     "end": 1.26
+    },
+    {
+     "w": "network",
+     "start": 1.3,
+     "end": 1.641
+    },
+    {
+     "w": "begins",
+     "start": 1.741,
+     "end": 2.141
+    },
+    {
+     "w": "with",
+     "start": 2.221,
+     "end": 2.362
+    },
+    {
+     "w": "one",
+     "start": 2.642,
+     "end": 2.822
+    },
+    {
+     "w": "simple",
+     "start": 3.042,
+     "end": 3.363
+    },
+    {
+     "w": "unit:",
+     "start": 3.523,
+     "end": 3.783
+    },
+    {
+     "w": "an",
+     "start": 4.344,
+     "end": 4.424
+    },
+    {
+     "w": "artificial",
+     "start": 4.564,
+     "end": 5.105
+    },
+    {
+     "w": "neuron.",
+     "start": 5.145,
+     "end": 5.546
+    },
+    {
+     "w": "It",
+     "start": 6.307,
+     "end": 6.367
+    },
+    {
+     "w": "takes",
+     "start": 6.407,
+     "end": 6.607
+    },
+    {
+     "w": "numbers",
+     "start": 6.707,
+     "end": 7.048
+    },
+    {
+     "w": "in,",
+     "start": 7.168,
+     "end": 7.328
+    },
+    {
+     "w": "multiplies",
+     "start": 7.849,
+     "end": 8.449
+    },
+    {
+     "w": "each",
+     "start": 8.549,
+     "end": 8.69
+    },
+    {
+     "w": "by",
+     "start": 8.75,
+     "end": 8.93
+    },
+    {
+     "w": "a",
+     "start": 8.97,
+     "end": 8.99
+    },
+    {
+     "w": "weight,",
+     "start": 9.07,
+     "end": 9.35
+    },
+    {
+     "w": "adds",
+     "start": 9.831,
+     "end": 9.991
+    },
+    {
+     "w": "them",
+     "start": 10.031,
+     "end": 10.151
+    },
+    {
+     "w": "together,",
+     "start": 10.171,
+     "end": 10.552
+    },
+    {
+     "w": "and",
+     "start": 11.013,
+     "end": 11.093
+    },
+    {
+     "w": "passes",
+     "start": 11.173,
+     "end": 11.553
+    },
+    {
+     "w": "the",
+     "start": 11.593,
+     "end": 11.693
+    },
+    {
+     "w": "total",
+     "start": 11.733,
+     "end": 12.094
+    },
+    {
+     "w": "through",
+     "start": 12.254,
+     "end": 12.454
+    },
+    {
+     "w": "an",
+     "start": 12.474,
+     "end": 12.534
+    },
+    {
+     "w": "activation",
+     "start": 12.695,
+     "end": 13.295
+    },
+    {
+     "w": "curve\u2014deciding",
+     "start": 13.355,
+     "end": 14.557
+    },
+    {
+     "w": "how",
+     "start": 14.677,
+     "end": 14.837
+    },
+    {
+     "w": "strongly",
+     "start": 14.937,
+     "end": 15.418
+    },
+    {
+     "w": "to",
+     "start": 15.438,
+     "end": 15.518
+    },
+    {
+     "w": "fire.",
+     "start": 15.558,
+     "end": 15.839
+    }
+   ],
+   "cues": [
+    {
+     "name": "inputs",
+     "t": 3.042,
+     "segment": "s01_neuron"
+    },
+    {
+     "name": "weights",
+     "t": 9.07,
+     "segment": "s01_neuron"
+    },
+    {
+     "name": "sum",
+     "t": 10.171,
+     "segment": "s01_neuron"
+    },
+    {
+     "name": "activation",
+     "t": 12.695,
+     "segment": "s01_neuron"
+    },
+    {
+     "name": "neuron_alive",
+     "t": 14.937,
+     "segment": "s01_neuron"
+    }
+   ],
+   "verify": {
+    "match": 0.958,
+    "diffs": [
+     {
+      "expected": "curvedeciding",
+      "heard": "curve deciding"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s02_network",
+   "text": "Wire thousands of these neurons into [[layers]] stacked layers, and a pattern emerges. Signals ripple [[forward]] forward from layer to layer. When the answer is wrong, an [[error]] error signal flows backward\u2014and training gently [[training_alive]] nudges every weight until the network learns.",
+   "spoken": "Wire thousands of these neurons into stacked layers, and a pattern emerges. Signals ripple forward from layer to layer. When the answer is wrong, an error signal flows backward\u2014and training gently nudges every weight until the network learns.",
+   "start": 16.689,
+   "end": 33.448,
+   "words": [
+    {
+     "w": "Wire",
+     "start": 16.769,
+     "end": 17.129
+    },
+    {
+     "w": "thousands",
+     "start": 17.249,
+     "end": 17.81
+    },
+    {
+     "w": "of",
+     "start": 17.85,
+     "end": 17.89
+    },
+    {
+     "w": "these",
+     "start": 17.95,
+     "end": 18.13
+    },
+    {
+     "w": "neurons",
+     "start": 18.21,
+     "end": 18.751
+    },
+    {
+     "w": "into",
+     "start": 18.831,
+     "end": 19.011
+    },
+    {
+     "w": "stacked",
+     "start": 19.091,
+     "end": 19.532
+    },
+    {
+     "w": "layers,",
+     "start": 19.592,
+     "end": 20.032
+    },
+    {
+     "w": "and",
+     "start": 20.293,
+     "end": 20.433
+    },
+    {
+     "w": "a",
+     "start": 20.693,
+     "end": 20.733
+    },
+    {
+     "w": "pattern",
+     "start": 20.773,
+     "end": 21.094
+    },
+    {
+     "w": "emerges.",
+     "start": 21.134,
+     "end": 21.554
+    },
+    {
+     "w": "Signals",
+     "start": 22.295,
+     "end": 22.735
+    },
+    {
+     "w": "ripple",
+     "start": 22.876,
+     "end": 23.176
+    },
+    {
+     "w": "forward",
+     "start": 23.236,
+     "end": 23.757
+    },
+    {
+     "w": "from",
+     "start": 23.817,
+     "end": 23.997
+    },
+    {
+     "w": "layer",
+     "start": 24.117,
+     "end": 24.477
+    },
+    {
+     "w": "to",
+     "start": 24.517,
+     "end": 24.658
+    },
+    {
+     "w": "layer.",
+     "start": 24.698,
+     "end": 25.018
+    },
+    {
+     "w": "When",
+     "start": 25.719,
+     "end": 25.839
+    },
+    {
+     "w": "the",
+     "start": 25.879,
+     "end": 25.939
+    },
+    {
+     "w": "answer",
+     "start": 26.019,
+     "end": 26.259
+    },
+    {
+     "w": "is",
+     "start": 26.3,
+     "end": 26.38
+    },
+    {
+     "w": "wrong,",
+     "start": 26.44,
+     "end": 26.76
+    },
+    {
+     "w": "an",
+     "start": 27.201,
+     "end": 27.261
+    },
+    {
+     "w": "error",
+     "start": 27.441,
+     "end": 27.701
+    },
+    {
+     "w": "signal",
+     "start": 27.741,
+     "end": 28.082
+    },
+    {
+     "w": "flows",
+     "start": 28.122,
+     "end": 28.382
+    },
+    {
+     "w": "backward\u2014and",
+     "start": 28.462,
+     "end": 29.383
+    },
+    {
+     "w": "training",
+     "start": 29.483,
+     "end": 29.924
+    },
+    {
+     "w": "gently",
+     "start": 30.064,
+     "end": 30.504
+    },
+    {
+     "w": "nudges",
+     "start": 30.605,
+     "end": 30.985
+    },
+    {
+     "w": "every",
+     "start": 31.125,
+     "end": 31.345
+    },
+    {
+     "w": "weight",
+     "start": 31.405,
+     "end": 31.646
+    },
+    {
+     "w": "until",
+     "start": 31.926,
+     "end": 32.226
+    },
+    {
+     "w": "the",
+     "start": 32.266,
+     "end": 32.367
+    },
+    {
+     "w": "network",
+     "start": 32.427,
+     "end": 32.827
+    },
+    {
+     "w": "learns.",
+     "start": 32.887,
+     "end": 33.248
+    }
+   ],
+   "cues": [
+    {
+     "name": "layers",
+     "t": 19.091,
+     "segment": "s02_network"
+    },
+    {
+     "name": "forward",
+     "t": 23.236,
+     "segment": "s02_network"
+    },
+    {
+     "name": "error",
+     "t": 27.441,
+     "segment": "s02_network"
+    },
+    {
+     "name": "training_alive",
+     "t": 30.605,
+     "segment": "s02_network"
+    }
+   ],
+   "verify": {
+    "match": 0.923,
+    "diffs": [
+     {
+      "expected": "wire",
+      "heard": "why are"
+     },
+     {
+      "expected": "backwardand",
+      "heard": "backward and"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s03_tokens",
+   "text": "Now, how does a network read [[wipe_tokens]] language? First, it slices text into bite-sized pieces called [[tokens]] tokens. Each token maps to a [[vectors]] vector\u2014a list of numbers placing that word in a [[vectors_alive]] map of meaning.",
+   "spoken": "Now, how does a network read language? First, it slices text into bite-sized pieces called tokens. Each token maps to a vector\u2014a list of numbers placing that word in a map of meaning.",
+   "start": 34.198,
+   "end": 48.618,
+   "words": [
+    {
+     "w": "Now,",
+     "start": 34.278,
+     "end": 34.439
+    },
+    {
+     "w": "how",
+     "start": 34.699,
+     "end": 34.819
+    },
+    {
+     "w": "does",
+     "start": 34.859,
+     "end": 35.019
+    },
+    {
+     "w": "a",
+     "start": 35.059,
+     "end": 35.099
+    },
+    {
+     "w": "network",
+     "start": 35.24,
+     "end": 35.72
+    },
+    {
+     "w": "read",
+     "start": 35.86,
+     "end": 36.101
+    },
+    {
+     "w": "language?",
+     "start": 36.161,
+     "end": 36.601
+    },
+    {
+     "w": "First,",
+     "start": 37.463,
+     "end": 37.763
+    },
+    {
+     "w": "it",
+     "start": 38.164,
+     "end": 38.264
+    },
+    {
+     "w": "slices",
+     "start": 38.344,
+     "end": 38.825
+    },
+    {
+     "w": "text",
+     "start": 38.905,
+     "end": 39.265
+    },
+    {
+     "w": "into",
+     "start": 39.385,
+     "end": 39.586
+    },
+    {
+     "w": "bite-sized",
+     "start": 39.666,
+     "end": 40.246
+    },
+    {
+     "w": "pieces",
+     "start": 40.327,
+     "end": 40.667
+    },
+    {
+     "w": "called",
+     "start": 40.967,
+     "end": 41.188
+    },
+    {
+     "w": "tokens.",
+     "start": 41.268,
+     "end": 41.688
+    },
+    {
+     "w": "Each",
+     "start": 42.57,
+     "end": 42.73
+    },
+    {
+     "w": "token",
+     "start": 42.81,
+     "end": 43.231
+    },
+    {
+     "w": "maps",
+     "start": 43.431,
+     "end": 43.691
+    },
+    {
+     "w": "to",
+     "start": 43.731,
+     "end": 43.851
+    },
+    {
+     "w": "a",
+     "start": 43.891,
+     "end": 43.911
+    },
+    {
+     "w": "vector\u2014a",
+     "start": 44.072,
+     "end": 44.933
+    },
+    {
+     "w": "list",
+     "start": 44.973,
+     "end": 45.173
+    },
+    {
+     "w": "of",
+     "start": 45.213,
+     "end": 45.273
+    },
+    {
+     "w": "numbers",
+     "start": 45.353,
+     "end": 45.754
+    },
+    {
+     "w": "placing",
+     "start": 46.155,
+     "end": 46.575
+    },
+    {
+     "w": "that",
+     "start": 46.615,
+     "end": 46.755
+    },
+    {
+     "w": "word",
+     "start": 46.815,
+     "end": 47.096
+    },
+    {
+     "w": "in",
+     "start": 47.196,
+     "end": 47.256
+    },
+    {
+     "w": "a",
+     "start": 47.296,
+     "end": 47.336
+    },
+    {
+     "w": "map",
+     "start": 47.476,
+     "end": 47.757
+    },
+    {
+     "w": "of",
+     "start": 47.917,
+     "end": 47.977
+    },
+    {
+     "w": "meaning.",
+     "start": 48.097,
+     "end": 48.418
+    }
+   ],
+   "cues": [
+    {
+     "name": "wipe_tokens",
+     "t": 36.161,
+     "segment": "s03_tokens"
+    },
+    {
+     "name": "tokens",
+     "t": 41.268,
+     "segment": "s03_tokens"
+    },
+    {
+     "name": "vectors",
+     "t": 44.072,
+     "segment": "s03_tokens"
+    },
+    {
+     "name": "vectors_alive",
+     "t": 47.476,
+     "segment": "s03_tokens"
+    }
+   ],
+   "verify": {
+    "match": 0.955,
+    "diffs": [
+     {
+      "expected": "vectora",
+      "heard": "vector a"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04_llm",
+   "text": "A large language model reads your prompt and asks one question: [[llm_box]] what comes next? It scores every token in its [[probs]] vocabulary, picks a likely [[pick_mat]] winner, tacks it onto the end, and [[loop_alive]] repeats\u2014one word at a time.",
+   "spoken": "A large language model reads your prompt and asks one question: what comes next? It scores every token in its vocabulary, picks a likely winner, tacks it onto the end, and repeats\u2014one word at a time.",
+   "start": 49.268,
+   "end": 64.068,
+   "words": [
+    {
+     "w": "A",
+     "start": 49.348,
+     "end": 49.388
+    },
+    {
+     "w": "large",
+     "start": 49.448,
+     "end": 49.789
+    },
+    {
+     "w": "language",
+     "start": 49.869,
+     "end": 50.27
+    },
+    {
+     "w": "model",
+     "start": 50.33,
+     "end": 50.65
+    },
+    {
+     "w": "reads",
+     "start": 50.77,
+     "end": 51.051
+    },
+    {
+     "w": "your",
+     "start": 51.091,
+     "end": 51.251
+    },
+    {
+     "w": "prompt",
+     "start": 51.311,
+     "end": 51.651
+    },
+    {
+     "w": "and",
+     "start": 51.932,
+     "end": 52.032
+    },
+    {
+     "w": "asks",
+     "start": 52.112,
+     "end": 52.332
+    },
+    {
+     "w": "one",
+     "start": 52.573,
+     "end": 52.733
+    },
+    {
+     "w": "question:",
+     "start": 52.893,
+     "end": 53.314
+    },
+    {
+     "w": "what",
+     "start": 53.934,
+     "end": 54.095
+    },
+    {
+     "w": "comes",
+     "start": 54.195,
+     "end": 54.455
+    },
+    {
+     "w": "next?",
+     "start": 54.535,
+     "end": 54.836
+    },
+    {
+     "w": "It",
+     "start": 55.597,
+     "end": 55.657
+    },
+    {
+     "w": "scores",
+     "start": 55.717,
+     "end": 56.097
+    },
+    {
+     "w": "every",
+     "start": 56.318,
+     "end": 56.558
+    },
+    {
+     "w": "token",
+     "start": 56.638,
+     "end": 57.059
+    },
+    {
+     "w": "in",
+     "start": 57.119,
+     "end": 57.179
+    },
+    {
+     "w": "its",
+     "start": 57.219,
+     "end": 57.319
+    },
+    {
+     "w": "vocabulary,",
+     "start": 57.359,
+     "end": 58.1
+    },
+    {
+     "w": "picks",
+     "start": 58.521,
+     "end": 58.741
+    },
+    {
+     "w": "a",
+     "start": 58.781,
+     "end": 58.821
+    },
+    {
+     "w": "likely",
+     "start": 58.861,
+     "end": 59.161
+    },
+    {
+     "w": "winner,",
+     "start": 59.222,
+     "end": 59.482
+    },
+    {
+     "w": "tacks",
+     "start": 60.003,
+     "end": 60.283
+    },
+    {
+     "w": "it",
+     "start": 60.343,
+     "end": 60.403
+    },
+    {
+     "w": "onto",
+     "start": 60.463,
+     "end": 60.603
+    },
+    {
+     "w": "the",
+     "start": 60.643,
+     "end": 60.724
+    },
+    {
+     "w": "end,",
+     "start": 60.844,
+     "end": 61.004
+    },
+    {
+     "w": "and",
+     "start": 61.465,
+     "end": 61.565
+    },
+    {
+     "w": "repeats\u2014one",
+     "start": 61.605,
+     "end": 62.906
+    },
+    {
+     "w": "word",
+     "start": 62.987,
+     "end": 63.287
+    },
+    {
+     "w": "at",
+     "start": 63.407,
+     "end": 63.467
+    },
+    {
+     "w": "a",
+     "start": 63.507,
+     "end": 63.547
+    },
+    {
+     "w": "time.",
+     "start": 63.587,
+     "end": 63.868
+    }
+   ],
+   "cues": [
+    {
+     "name": "llm_box",
+     "t": 53.934,
+     "segment": "s04_llm"
+    },
+    {
+     "name": "probs",
+     "t": 57.359,
+     "segment": "s04_llm"
+    },
+    {
+     "name": "pick_mat",
+     "t": 59.222,
+     "segment": "s04_llm"
+    },
+    {
+     "name": "loop_alive",
+     "t": 61.605,
+     "segment": "s04_llm"
+    }
+   ],
+   "verify": {
+    "match": 0.959,
+    "diffs": [
+     {
+      "expected": "repeatsone",
+      "heard": "repeats one"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s05_attention",
+   "text": "What makes a transformer smart is [[wipe_attn]] self-attention. In 'The animal didn't cross the street because [[sentence]] it was too tired,' attention lets 'it' [[attn_arcs]] look across the sentence and lock onto [[attn_alive]] 'animal.' Stack dozens of these [[stack_layers]] layers, and deep context clicks.",
+   "spoken": "What makes a transformer smart is self-attention. In 'The animal didn't cross the street because it was too tired,' attention lets 'it' look across the sentence and lock onto 'animal.' Stack dozens of these layers, and deep context clicks.",
+   "start": 64.818,
+   "end": 82.878,
+   "words": [
+    {
+     "w": "What",
+     "start": 64.898,
+     "end": 65.059
+    },
+    {
+     "w": "makes",
+     "start": 65.119,
+     "end": 65.399
+    },
+    {
+     "w": "a",
+     "start": 65.459,
+     "end": 65.499
+    },
+    {
+     "w": "transformer",
+     "start": 65.559,
+     "end": 66.22
+    },
+    {
+     "w": "smart",
+     "start": 66.3,
+     "end": 66.68
+    },
+    {
+     "w": "is",
+     "start": 66.961,
+     "end": 67.041
+    },
+    {
+     "w": "self-attention.",
+     "start": 67.181,
+     "end": 68.042
+    },
+    {
+     "w": "In",
+     "start": 68.903,
+     "end": 69.003
+    },
+    {
+     "w": "'The",
+     "start": 69.023,
+     "end": 69.724
+    },
+    {
+     "w": "animal",
+     "start": 69.924,
+     "end": 70.244
+    },
+    {
+     "w": "didn't",
+     "start": 70.364,
+     "end": 70.625
+    },
+    {
+     "w": "cross",
+     "start": 70.665,
+     "end": 70.945
+    },
+    {
+     "w": "the",
+     "start": 70.985,
+     "end": 71.085
+    },
+    {
+     "w": "street",
+     "start": 71.125,
+     "end": 71.445
+    },
+    {
+     "w": "because",
+     "start": 71.626,
+     "end": 71.946
+    },
+    {
+     "w": "it",
+     "start": 71.966,
+     "end": 72.026
+    },
+    {
+     "w": "was",
+     "start": 72.066,
+     "end": 72.206
+    },
+    {
+     "w": "too",
+     "start": 72.266,
+     "end": 72.427
+    },
+    {
+     "w": "tired,'",
+     "start": 72.507,
+     "end": 72.907
+    },
+    {
+     "w": "attention",
+     "start": 73.548,
+     "end": 74.128
+    },
+    {
+     "w": "lets",
+     "start": 74.269,
+     "end": 74.489
+    },
+    {
+     "w": "'it'",
+     "start": 74.509,
+     "end": 75.149
+    },
+    {
+     "w": "look",
+     "start": 75.61,
+     "end": 75.79
+    },
+    {
+     "w": "across",
+     "start": 75.83,
+     "end": 76.131
+    },
+    {
+     "w": "the",
+     "start": 76.171,
+     "end": 76.271
+    },
+    {
+     "w": "sentence",
+     "start": 76.311,
+     "end": 76.691
+    },
+    {
+     "w": "and",
+     "start": 76.971,
+     "end": 77.072
+    },
+    {
+     "w": "lock",
+     "start": 77.172,
+     "end": 77.432
+    },
+    {
+     "w": "onto",
+     "start": 77.572,
+     "end": 77.792
+    },
+    {
+     "w": "'animal.'",
+     "start": 77.812,
+     "end": 78.333
+    },
+    {
+     "w": "Stack",
+     "start": 79.034,
+     "end": 79.334
+    },
+    {
+     "w": "dozens",
+     "start": 79.474,
+     "end": 79.955
+    },
+    {
+     "w": "of",
+     "start": 80.015,
+     "end": 80.055
+    },
+    {
+     "w": "these",
+     "start": 80.115,
+     "end": 80.275
+    },
+    {
+     "w": "layers,",
+     "start": 80.355,
+     "end": 80.675
+    },
+    {
+     "w": "and",
+     "start": 81.016,
+     "end": 81.116
+    },
+    {
+     "w": "deep",
+     "start": 81.256,
+     "end": 81.516
+    },
+    {
+     "w": "context",
+     "start": 81.657,
+     "end": 82.257
+    },
+    {
+     "w": "clicks.",
+     "start": 82.377,
+     "end": 82.678
+    }
+   ],
+   "cues": [
+    {
+     "name": "wipe_attn",
+     "t": 67.181,
+     "segment": "s05_attention"
+    },
+    {
+     "name": "sentence",
+     "t": 71.966,
+     "segment": "s05_attention"
+    },
+    {
+     "name": "attn_arcs",
+     "t": 75.61,
+     "segment": "s05_attention"
+    },
+    {
+     "name": "attn_alive",
+     "t": 77.812,
+     "segment": "s05_attention"
+    },
+    {
+     "name": "stack_layers",
+     "t": 80.355,
+     "segment": "s05_attention"
+    }
+   ],
+   "verify": {
+    "match": 0.861,
+    "diffs": [
+     {
+      "expected": "'the",
+      "heard": "the"
+     },
+     {
+      "expected": "tired'",
+      "heard": "tired"
+     },
+     {
+      "expected": "'it'",
+      "heard": "it"
+     },
+     {
+      "expected": "onto 'animal'",
+      "heard": "on to animal"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s06_pipeline",
+   "text": "Put it all together on [[wipe_wrap]] one board: [[pipeline_draw]] words become tokens, tokens become vectors, attention weighs the context across stacked layers, and [[cap_on]] out comes the next [[pipeline_alive]] token\u2014prediction by prediction.",
+   "spoken": "Put it all together on one board: words become tokens, tokens become vectors, attention weighs the context across stacked layers, and out comes the next token\u2014prediction by prediction.",
+   "start": 83.628,
+   "end": 97.628,
+   "words": [
+    {
+     "w": "Put",
+     "start": 83.708,
+     "end": 83.849
+    },
+    {
+     "w": "it",
+     "start": 83.889,
+     "end": 83.949
+    },
+    {
+     "w": "all",
+     "start": 83.989,
+     "end": 84.129
+    },
+    {
+     "w": "together",
+     "start": 84.169,
+     "end": 84.57
+    },
+    {
+     "w": "on",
+     "start": 84.73,
+     "end": 84.81
+    },
+    {
+     "w": "one",
+     "start": 85.01,
+     "end": 85.13
+    },
+    {
+     "w": "board:",
+     "start": 85.21,
+     "end": 85.531
+    },
+    {
+     "w": "words",
+     "start": 86.192,
+     "end": 86.552
+    },
+    {
+     "w": "become",
+     "start": 86.612,
+     "end": 86.893
+    },
+    {
+     "w": "tokens,",
+     "start": 86.953,
+     "end": 87.434
+    },
+    {
+     "w": "tokens",
+     "start": 87.954,
+     "end": 88.375
+    },
+    {
+     "w": "become",
+     "start": 88.455,
+     "end": 88.735
+    },
+    {
+     "w": "vectors,",
+     "start": 88.815,
+     "end": 89.276
+    },
+    {
+     "w": "attention",
+     "start": 90.037,
+     "end": 90.618
+    },
+    {
+     "w": "weighs",
+     "start": 90.698,
+     "end": 91.039
+    },
+    {
+     "w": "the",
+     "start": 91.079,
+     "end": 91.159
+    },
+    {
+     "w": "context",
+     "start": 91.199,
+     "end": 91.76
+    },
+    {
+     "w": "across",
+     "start": 91.9,
+     "end": 92.2
+    },
+    {
+     "w": "stacked",
+     "start": 92.26,
+     "end": 92.661
+    },
+    {
+     "w": "layers,",
+     "start": 92.701,
+     "end": 93.081
+    },
+    {
+     "w": "and",
+     "start": 93.702,
+     "end": 93.802
+    },
+    {
+     "w": "out",
+     "start": 93.943,
+     "end": 94.063
+    },
+    {
+     "w": "comes",
+     "start": 94.123,
+     "end": 94.423
+    },
+    {
+     "w": "the",
+     "start": 94.503,
+     "end": 94.604
+    },
+    {
+     "w": "next",
+     "start": 94.684,
+     "end": 94.924
+    },
+    {
+     "w": "token\u2014prediction",
+     "start": 94.984,
+     "end": 96.406
+    },
+    {
+     "w": "by",
+     "start": 96.626,
+     "end": 96.847
+    },
+    {
+     "w": "prediction.",
+     "start": 96.967,
+     "end": 97.428
+    }
+   ],
+   "cues": [
+    {
+     "name": "wipe_wrap",
+     "t": 85.01,
+     "segment": "s06_pipeline"
+    },
+    {
+     "name": "pipeline_draw",
+     "t": 86.192,
+     "segment": "s06_pipeline"
+    },
+    {
+     "name": "cap_on",
+     "t": 93.943,
+     "segment": "s06_pipeline"
+    },
+    {
+     "name": "pipeline_alive",
+     "t": 94.984,
+     "segment": "s06_pipeline"
+    }
+   ],
+   "verify": {
+    "match": 0.947,
+    "diffs": [
+     {
+      "expected": "tokenprediction",
+      "heard": "token prediction"
+     }
+    ]
+   }
+  }
+ ],
+ "cues": {
+  "inputs": 3.042,
+  "weights": 9.07,
+  "sum": 10.171,
+  "activation": 12.695,
+  "neuron_alive": 14.937,
+  "layers": 19.091,
+  "forward": 23.236,
+  "error": 27.441,
+  "training_alive": 30.605,
+  "wipe_tokens": 36.161,
+  "tokens": 41.268,
+  "vectors": 44.072,
+  "vectors_alive": 47.476,
+  "llm_box": 53.934,
+  "probs": 57.359,
+  "pick_mat": 59.222,
+  "loop_alive": 61.605,
+  "wipe_attn": 67.181,
+  "sentence": 71.966,
+  "attn_arcs": 75.61,
+  "attn_alive": 77.812,
+  "stack_layers": 80.355,
+  "wipe_wrap": 85.01,
+  "pipeline_draw": 86.192,
+  "cap_on": 93.943,
+  "pipeline_alive": 94.984
+ }
+}

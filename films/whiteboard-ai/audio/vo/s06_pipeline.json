@@ -1,0 +1,10 @@
+{
+ "hash": "d536859379f06c92",
+ "id": "s06_pipeline",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Charon",
+ "speaker": null,
+ "style": "Warm, curious, clear educational narrator pacing with natural emphasis and unhurried clarity.",
+ "spoken": "Put it all together on one board: words become tokens, tokens become vectors, attention weighs the context across stacked layers, and out comes the next token\u2014prediction by prediction.",
+ "seconds": 14.28
+}

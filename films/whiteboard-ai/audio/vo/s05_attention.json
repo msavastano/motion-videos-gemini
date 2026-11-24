@@ -1,0 +1,10 @@
+{
+ "hash": "a2bd7a9c5e188cfa",
+ "id": "s05_attention",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Charon",
+ "speaker": null,
+ "style": "Warm, curious, clear educational narrator pacing with natural emphasis and unhurried clarity.",
+ "spoken": "What makes a transformer smart is self-attention. In 'The animal didn't cross the street because it was too tired,' attention lets 'it' look across the sentence and lock onto 'animal.' Stack dozens of these layers, and deep context clicks.",
+ "seconds": 18.48
+}

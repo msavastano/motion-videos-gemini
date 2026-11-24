@@ -1,0 +1,102 @@
+{
+  "title": "From Neuron to Transformer",
+  "slug": "whiteboard-ai",
+  "logline": "A dry-erase marker sketches a single artificial neuron on a clean whiteboard—and every diagram comes alive as we build up to neural networks, token prediction, and transformer self-attention.",
+  "duration": 99.63,
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "budget_usd": 5.0,
+  "render_hours": 2.0,
+  "picture": "code",
+  "poster": 97.2,
+  "prebuild": [
+    "python audio.py"
+  ],
+  "shots": [
+    {
+      "id": "s01_neuron",
+      "start": 0.0,
+      "end": 16.35,
+      "what": "Cap clicks off; Blender hand draws a single neuron (inputs x1..x3, weights w1..w3, sum sigma, activation curve, output). Sketch comes alive: pulses travel inputs, weights throb, sigma fires output.",
+      "method": "blender+code",
+      "why": "Blender renders realistic RGBA hand/marker/eraser sprite poses with tracked tip anchors; code locks progressive dry-erase ink and animated pulses directly to the tip.",
+      "blender": {
+        "frames": [1, 96],
+        "s_per_frame": 2.0,
+        "preview_s_per_frame": 1.0
+      }
+    },
+    {
+      "id": "s02_network",
+      "start": 16.35,
+      "end": 33.8,
+      "what": "Board pans/expands; hand sketches a 3-layer network and training error loop. Sketch comes alive: forward wave ripples left-to-right, error bounces back and visibly nudges connection thicknesses.",
+      "method": "blender+code",
+      "why": "Reuses the Blender RGBA hand sequence over dynamically animated network weights and error-backprop waves in code.",
+      "blender": {
+        "frames": [1, 0],
+        "s_per_frame": 0,
+        "preview_s_per_frame": 0
+      }
+    },
+    {
+      "id": "s03_tokens",
+      "start": 33.8,
+      "end": 48.95,
+      "what": "Felt eraser wipes board clean; hand writes 'The cat sat on the', slices into boxed tokens, and draws vector coordinates [0.82, -0.14, 0.51]. Tokens slide into sequence and vector bars spring up.",
+      "method": "blender+code",
+      "why": "Blender eraser/hand layers sweep real alpha shadows across code-rendered dry-erase ink, crisp typography, and sliding token blocks.",
+      "blender": {
+        "frames": [1, 0],
+        "s_per_frame": 0,
+        "preview_s_per_frame": 0
+      }
+    },
+    {
+      "id": "s04_llm",
+      "start": 48.95,
+      "end": 64.45,
+      "what": "Hand draws the LLM prediction block and ranked probability bars (mat 72%, rug 14%, floor 6%). Bars animate, 'mat' locks in and loops back into the sequence to predict the next token.",
+      "method": "blender+code",
+      "why": "Exact typographic alignment and spring-driven bar charts in code paired with Blender marker hand gestures.",
+      "blender": {
+        "frames": [1, 0],
+        "s_per_frame": 0,
+        "preview_s_per_frame": 0
+      }
+    },
+    {
+      "id": "s05_attention",
+      "start": 64.45,
+      "end": 83.25,
+      "what": "Eraser wipes clean; hand writes 'The animal didn't cross the street because it was too tired', circles 'it', draws attention arcs to 'animal' and 'street', and sketches stacked xN layers. Arcs light up proportionally and signals climb the stack.",
+      "method": "blender+code",
+      "why": "Progressive Bezier attention arcs and stacked layer depth signals in code synced with the Blender marker tip.",
+      "blender": {
+        "frames": [1, 0],
+        "s_per_frame": 0,
+        "preview_s_per_frame": 0
+      }
+    },
+    {
+      "id": "s06_pipeline",
+      "start": 83.25,
+      "end": 99.63,
+      "what": "Quick eraser wipe; hand redraws the complete pipeline on one board (Words -> Tokens -> Vectors -> Attention xN -> Next Token), caps marker and lifts away. A luminous cobalt signal sweeps end-to-end.",
+      "method": "blender+code",
+      "why": "Unifies the whole visual language in one clean poster-ready composition with final Blender hand lift-away.",
+      "blender": {
+        "frames": [1, 0],
+        "s_per_frame": 0,
+        "preview_s_per_frame": 0
+      }
+    }
+  ],
+  "frames": {
+    "draft": "prep/frames_480/f%04d.png",
+    "final": "prep/frames_1080/f%04d.png",
+    "start_number": 1
+  },
+  "grade_vf": "fade=t=in:st=0:d=0.4,fade=t=out:st=98.88:d=0.75,vignette=angle=PI/5,noise=alls=3:allf=t"
+}

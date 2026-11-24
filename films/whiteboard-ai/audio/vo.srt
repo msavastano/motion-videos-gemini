@@ -1,0 +1,167 @@
+1
+00:00:00,680 --> 00:00:03,363
+Every neural network begins with one simple
+
+2
+00:00:03,523 --> 00:00:03,783
+unit:
+
+3
+00:00:04,344 --> 00:00:05,546
+an artificial neuron.
+
+4
+00:00:06,307 --> 00:00:07,328
+It takes numbers in,
+
+5
+00:00:07,849 --> 00:00:09,350
+multiplies each by a weight,
+
+6
+00:00:09,831 --> 00:00:10,552
+adds them together,
+
+7
+00:00:11,013 --> 00:00:13,295
+and passes the total through an activation
+
+8
+00:00:13,355 --> 00:00:15,839
+curve—deciding how strongly to fire.
+
+9
+00:00:16,769 --> 00:00:19,532
+Wire thousands of these neurons into stacked
+
+10
+00:00:19,592 --> 00:00:20,032
+layers,
+
+11
+00:00:20,293 --> 00:00:21,554
+and a pattern emerges.
+
+12
+00:00:22,295 --> 00:00:25,018
+Signals ripple forward from layer to layer.
+
+13
+00:00:25,719 --> 00:00:26,760
+When the answer is wrong,
+
+14
+00:00:27,201 --> 00:00:30,504
+an error signal flows backward—and training gently
+
+15
+00:00:30,605 --> 00:00:33,248
+nudges every weight until the network learns.
+
+16
+00:00:34,278 --> 00:00:34,439
+Now,
+
+17
+00:00:34,699 --> 00:00:36,601
+how does a network read language?
+
+18
+00:00:37,463 --> 00:00:37,763
+First,
+
+19
+00:00:38,164 --> 00:00:41,188
+it slices text into bite-sized pieces called
+
+20
+00:00:41,268 --> 00:00:41,688
+tokens.
+
+21
+00:00:42,570 --> 00:00:45,173
+Each token maps to a vector—a list
+
+22
+00:00:45,213 --> 00:00:47,336
+of numbers placing that word in a
+
+23
+00:00:47,476 --> 00:00:48,418
+map of meaning.
+
+24
+00:00:49,348 --> 00:00:51,651
+A large language model reads your prompt
+
+25
+00:00:51,932 --> 00:00:53,314
+and asks one question:
+
+26
+00:00:53,934 --> 00:00:54,836
+what comes next?
+
+27
+00:00:55,597 --> 00:00:58,100
+It scores every token in its vocabulary,
+
+28
+00:00:58,521 --> 00:00:59,482
+picks a likely winner,
+
+29
+00:01:00,003 --> 00:01:01,004
+tacks it onto the end,
+
+30
+00:01:01,465 --> 00:01:03,868
+and repeats—one word at a time.
+
+31
+00:01:04,898 --> 00:01:08,042
+What makes a transformer smart is self-attention.
+
+32
+00:01:08,903 --> 00:01:11,445
+In 'The animal didn't cross the street
+
+33
+00:01:11,626 --> 00:01:14,489
+because it was too tired,' attention lets
+
+34
+00:01:14,509 --> 00:01:17,432
+'it' look across the sentence and lock
+
+35
+00:01:17,572 --> 00:01:20,675
+onto 'animal.' Stack dozens of these layers,
+
+36
+00:01:21,016 --> 00:01:22,678
+and deep context clicks.
+
+37
+00:01:23,708 --> 00:01:25,531
+Put it all together on one board:
+
+38
+00:01:26,192 --> 00:01:27,434
+words become tokens,
+
+39
+00:01:27,954 --> 00:01:29,276
+tokens become vectors,
+
+40
+00:01:30,037 --> 00:01:33,081
+attention weighs the context across stacked layers,
+
+41
+00:01:33,702 --> 00:01:36,847
+and out comes the next token—prediction by
+
+42
+00:01:36,967 --> 00:01:37,428
+prediction.
