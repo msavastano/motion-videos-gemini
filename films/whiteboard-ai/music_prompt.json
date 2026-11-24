@@ -1,0 +1,17 @@
+{
+  "model": "lyria-3-pro-preview",
+  "takes": [
+    {
+      "id": "take1",
+      "prompt": "Instrumental, no vocals. Light, curious, unobtrusive educational background music at 106 BPM. Plucked acoustic pizzicato strings, soft felt piano, and gentle marimba pulses. Sparse and airy from 0 to 18 seconds, gently building rhythmic curiosity through 70 seconds, warming into a clear, satisfying harmonic resolution from 90 to 105 seconds. Clean studio mix with plenty of midrange space for narration."
+    },
+    {
+      "id": "take2",
+      "prompt": "Instrumental, no vocals. Minimalist curious science explainer score at 104 BPM. Soft muted electric piano, delicate acoustic guitar harmonics, light brushed shaker, and warm upright bass notes. Unobtrusive and steady under spoken narration, subtly lifting in brightness during the final third and resolving cleanly on a major chord."
+    },
+    {
+      "id": "take3",
+      "prompt": "Instrumental, no vocals. Playful, thoughtful modern tech documentary bed at 108 BPM. Felt piano arpeggios, wooden kalimba, subtle pizzicato cello, and soft analog synth warmth. Never busy or distracting; clean open texture that leaves room for voiceover, gentle swell at 70 seconds, calm final cadence."
+    }
+  ]
+}

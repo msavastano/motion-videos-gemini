@@ -1,0 +1,19 @@
+{
+  "tex_default": 1024,
+  "models": {
+    "hand": {
+      "folder": "stylized-hand",
+      "collection": "Stylized Hand",
+      "tex": 2048,
+      "author": "3D FLICK (BlenderKit, free)"
+    },
+    "marker": {
+      "folder": "red-whiteboard-marker",
+      "collection": "Red whiteboard marker",
+      "tex": 2048,
+      "author": "Master P (BlenderKit, free)"
+    }
+  },
+  "materials": {},
+  "hdrs": {}
+}

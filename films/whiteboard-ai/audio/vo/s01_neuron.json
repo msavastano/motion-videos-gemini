@@ -1,0 +1,10 @@
+{
+ "hash": "d0d76c36743fa7e1",
+ "id": "s01_neuron",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Charon",
+ "speaker": null,
+ "style": "Warm, curious, clear educational narrator pacing with natural emphasis and unhurried clarity.",
+ "spoken": "Every neural network begins with one simple unit: an artificial neuron. It takes numbers in, multiplies each by a weight, adds them together, and passes the total through an activation curve\u2014deciding how strongly to fire.",
+ "seconds": 15.88
+}

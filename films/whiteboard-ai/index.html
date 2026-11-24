@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>From Neuron to Transformer</title>
+<style>
+  /* Fonts are local files (no network at render time). Swap in the brief's faces from Fontsource
+     (https://cdn.jsdelivr.net/npm/@fontsource/<font>/files/<font>-latin-<weight>-normal.woff2)
+     and keep their OFL licence next to them in assets/fonts/. */
+  @font-face { font-family: 'Display'; src: url('assets/fonts/space-grotesk-latin-600-normal.woff2') format('woff2'); font-weight: 600; }
+  @font-face { font-family: 'UI'; src: url('assets/fonts/jetbrains-mono-latin-500-normal.woff2') format('woff2'); font-weight: 500; }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script type="module">
+import { boot } from './src/film.js';
+await boot(document.getElementById('c'));
+</script>
+</body>
+</html>

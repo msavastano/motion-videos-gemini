@@ -1,0 +1,10 @@
+{
+ "hash": "5cad10a31ca1bd36",
+ "id": "s04_llm",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Charon",
+ "speaker": null,
+ "style": "Warm, curious, clear educational narrator pacing with natural emphasis and unhurried clarity.",
+ "spoken": "A large language model reads your prompt and asks one question: what comes next? It scores every token in its vocabulary, picks a likely winner, tacks it onto the end, and repeats\u2014one word at a time.",
+ "seconds": 15.0
+}

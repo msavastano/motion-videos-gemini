@@ -1,0 +1,10 @@
+{
+ "hash": "1858946f4a0b40ad",
+ "id": "s03_tokens",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Charon",
+ "speaker": null,
+ "style": "Warm, curious, clear educational narrator pacing with natural emphasis and unhurried clarity.",
+ "spoken": "Now, how does a network read language? First, it slices text into bite-sized pieces called tokens. Each token maps to a vector\u2014a list of numbers placing that word in a map of meaning.",
+ "seconds": 14.64
+}

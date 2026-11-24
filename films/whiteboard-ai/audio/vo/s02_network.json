@@ -1,0 +1,10 @@
+{
+ "hash": "031830af15386fce",
+ "id": "s02_network",
+ "model": "gemini-3.8-flash-tts",
+ "voice": "Charon",
+ "speaker": null,
+ "style": "Warm, curious, clear educational narrator pacing with natural emphasis and unhurried clarity.",
+ "spoken": "Wire thousands of these neurons into stacked layers, and a pattern emerges. Signals ripple forward from layer to layer. When the answer is wrong, an error signal flows backward\u2014and training gently nudges every weight until the network learns.",
+ "seconds": 17.28
+}
